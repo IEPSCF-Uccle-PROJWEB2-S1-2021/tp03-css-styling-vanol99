@@ -15,7 +15,8 @@ body {
 section {
   float: left;
   width: 50%;
-}
+  }
+
 
 aside {
   float: left;
@@ -43,3 +44,76 @@ header, footer {
 }
 
 /* ECRIVEZ VOTRE CODE CI-DESSOUS */
+header {
+  text-align: center;
+  font-size: 2em;
+  }
+  body {
+    font-size: 10px;
+    letter-spacing: 2px;
+      word-spacing: 3px;
+    font-family: serif, 'Times New Roman', verdana;
+  }
+  section, h2+p {
+    text-indent: 20px;
+
+  }
+  h2 {
+     font-size: 3em;
+  }
+
+h1,h2 {
+  font-family: sans-serif;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-indent: 0px;
+  font-style: italic;
+
+}
+p,li{
+  font-size: 1.6em;
+  line-height: 2em;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+a:link {
+  color: #a66;
+}
+a:visited {
+  color: #a66;
+}
+a:focus {
+  color: #a66;
+  text-decoration: none;
+}
+a:hover {
+  color: #a66;
+  text-decoration: none;
+}
+a[href*="http"]{
+  padding-right: 20px;
+  background: url(external-link-52.png)no-repeat 100%;
+  background-size: 10px;
+}
+ul {
+  list-style-type: square;
+}
+nav li {
+  list-style-type: none;
+}
+nav li {
+  margin-bottom: 2em;
+  width: 15em;
+}
+nav li a {
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  line-height: 1.5em;
+  text-align: center;
+  font-size: 2.5em;
+  border: 1px solid burlywood;
+}
+ol {
+  list-style-type: lower-alpha;
+}
